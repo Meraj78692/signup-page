@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+.signupForm {
+  max-width: 400px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(141, 173, 174);
+  color: rgb(0, 0, 0);
+
+  border-radius: 3%;
+}
+
+.signupForm h1 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+img {
+  width: 400px;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  width: 150px;
+  background: blueviolet;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #eee;
+  color: #999;
+  box-shadow: none;
+}
